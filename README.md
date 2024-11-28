@@ -42,3 +42,41 @@ val page = Page(
 )
 
 val html = HTMLRenderer.render(page)
+
+```
+This will generate properly formatted HTML:
+
+```
+<html>
+  <head>
+    <title>My First Page</title>
+  </head>
+  <body>
+    <h1>Welcome to HTML Renderer</h1>
+    <div>
+      <p>This is a paragraph</p>
+      <ol>
+        <li>First item</li>
+        <li>Second item</li>
+      </ol>
+    </div>
+  </body>
+</html>
+```
+
+### Implementation Details
+The project showcases several important Kotlin features and programming concepts:
+
+Sealed interfaces for type safety
+Data classes for clean element implementations
+Extension functions for intuitive API design
+String interpolation for HTML generation
+Recursive rendering using the Composite pattern
+
+## Getting Started
+
+1. Clone the repository:
+```git clone https://github.com/Grauwolf7/HTML_Renderer.git```
+
+2. Open the project in IntelliJ IDEA or your preferred Kotlin IDE
+3. Build and run the project to see example output
